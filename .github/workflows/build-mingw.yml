@@ -63,7 +63,7 @@ jobs:
             cd LucenePlusPlus &&^
             cmake.exe -G"MinGW Makefiles" ^
             -DCMAKE_BUILD_TYPE=Release ^
-            -DBUILD_SHARED_LIBS=OFF ^
+            -DLUCENE_BUILD_SHARED=OFF ^
             -DBOOST_ROOT="%CD_LINUX%/boost-v1.72.0-mingw64-x86_64-posix-seh-rev0-8.1.0" ^
             -DBoost_COMPILER=mgw81 ^
             -DBoost_USE_STATIC_RUNTIME=ON ^
